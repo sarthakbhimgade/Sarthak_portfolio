@@ -14,7 +14,7 @@ This is a **unique One Piece-themed portfolio website** built using **React, Tai
 ## 🛠️ Tech Stack  
 
 - **Frontend**: React, Tailwind CSS  
-- **Animations**: Framer Motion  
+- **Animations**: Framer Motion, ThreeJS 
 - **Deployment**: Vercel  
 
 ## 🎭 One Piece Theme Highlights  

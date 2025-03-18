@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import "tailwindcss";
+
+
+body {
+    background: radial-gradient(circle at 50% 0%, #050a18 10%, #020617 90%);
+    color: white;
+    overflow-x: hidden;
+  }
+  
+ 
+  .bg-dark-glow {
+    background-image: radial-gradient(circle, #ff000045 10%, transparent 70%);
+    animation: animate 20s infinite alternate;
+    filter: blur(100px);
+    opacity: 0.3;
+  }
+  
+  @keyframes animate {
+    0% { transform: translateY(-10px); }
+    50% { transform: translateY(20px); }
+    100% { transform: translateY(-10px); }
+  }
+  
+
+  html {
+    scroll-behavior: smooth;
+  }
+  .parallax {
+    will-change: transform;
+  }
+ 
+.bg-green-glow {
+    background-image: radial-gradient(circle, rgba(0, 255, 98, 0.2) 10%, transparent 70%);
+    animation: animate 20s infinite alternate;
+    filter: blur(100px);
+    opacity: 0.3;
+  }
+
+.bg-yellow-glow {
+    background-image: radial-gradient(circle, rgba(255, 255, 0, 0.2) 10%, transparent 70%);
+    animation: animate 20s infinite alternate;
+    filter: blur(100px);
+    opacity: 0.3;
+  }
+  
+.bg-dark-yellow-glow {
+    background: rgba(255, 215, 0, 0.1);
+  }
+  
+.experience-card {
+    transform: perspective(1000px) rotateY(0deg);
+    transition: transform 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+.experience-card:hover {
+    transform: perspective(1000px) rotateY(5deg) translateY(-5px) scale(1.02);
+  }
+/* Purple Glow Effect */
+.bg-purple-glow {
+    background-image: radial-gradient(circle, rgba(128, 0, 128, 0.2) 10%, transparent 70%);
+    animation: animate 20s infinite alternate;
+    filter: blur(100px);
+    opacity: 0.3;
+  }
+.bg-blue-glow {
+    background-image: radial-gradient(circle, #00ffff33 10%, transparent 70%);
+    animation: animate 20s infinite alternate;
+    filter: blur(100px);
+    opacity: 0.3;
+  }
+  

@@ -10,7 +10,7 @@ const contactLinks = [
   { icon: <FaGithub />, label: "GitHub", url: "https://github.com/sarthakbhimgade" },
   { icon: <SiLeetcode />, label: "LeetCode", url: "https://codeforces.com/profile/sarthakbhimgade" },
   { icon: <SiCodeforces />, label: "CodeForces", url: "https://auth.geeksforgeeks.org/user/bhimgadesarthak27" },
-  { icon: <SiGeeksforgeeks />, label: "GeeksForGeeks", url: "https://auth.geeksforgeeks.org/user/sarthakbhimgade" },
+  { icon: <SiGeeksforgeeks />, label: "GeeksForGeeks", url: "https://www.geeksforgeeks.org/user/bhimgadesarthak27/" },
   { icon: <FaEnvelope />, label: "Email", url: "mailto:sarthakbhimgade12@gmail.com" },
 
 ];
@@ -25,12 +25,12 @@ const Contact = () => {
   }, [inView]);
 
   return (
-    <section ref={ref} className="min-h-screen flex flex-col-reverse lg:flex-row items-center justify-center px-6 md:px-20 gap-10">
+    <section ref={ref} className="min-h-screen flex flex-col-reverse lg:flex-row  items-center justify-center px-6 md:px-20 gap-10 mb-10">
       <div className="absolute inset-0 bg-blue-glow opacity-50 pointer-events-none"></div>
       
       {/* Contact Card */}
       <motion.div
-        className="flex flex-col space-y-6 text-white bg-black bg-opacity-50 backdrop-blur-lg p-6 md:p-8 rounded-lg shadow-xl border border-gray-600 w-full sm:max-w-md lg:max-w-lg text-center"
+        className="flex flex-col space-y-6 text-white bg-black bg-opacity-50 backdrop-blur-lg p-6 md:p-8  rounded-lg shadow-xl border border-gray-600 w-full sm:max-w-md lg:max-w-lg text-center"
         initial={{ opacity: 0, x: -100 }}
         animate={animate ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
         transition={{ duration: 1 }}
@@ -77,7 +77,7 @@ const Contact = () => {
       </motion.div>
 
       {/* Blackbeard Image - Enhanced Floating Effect */}
-      <div className="w-full lg:w-1/2 flex justify-center mb-10 lg:mb-0">
+      <div className="w-full lg:w-1/2 flex justify-center mb-10  lg:mb-0">
         <motion.img
           src={bb}
           alt="Blackbeard"

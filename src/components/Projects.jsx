@@ -248,7 +248,7 @@ const Projects = () => {
   };
 
   return (
-    <section ref={ref} className="h-screen flex flex-col lg:flex-row items-center justify-center px-5 md:px-10 lg:px-20 relative pt-10">
+    <section ref={ref} className="h-screen flex flex-col lg:flex-row items-center justify-center px-5 md:px-10 lg:px-20 relative pt-10 mb-20 pb-20">
       <div className="absolute inset-0 bg-purple-glow pointer-events-none"></div>
 
       {/* Mihawk Image */}

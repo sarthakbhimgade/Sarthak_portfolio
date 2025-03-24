@@ -110,7 +110,7 @@ const experiences = [
   {
     role: "Frontend Developer",
     company: "Freelancer",
-    duration: "Jun 2023 – Dec 2023",
+    duration: "May 2023 – Feb 2024",
     description: [
       "Increased lead generation by 40% by building ReactJS SPA with server-side rendering, resulting in enhanced site performance",
       "Enhanced user engagement by developing seamless navigation with React-Router-Dom and dynamic routing implementation",

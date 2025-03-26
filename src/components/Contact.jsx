@@ -63,7 +63,7 @@ const Contact = () => {
         </div>
 
         <a
-          href="https://drive.google.com/file/d/1OFPD43ebbMHcC8eYqFnk7DY2Q68Fer1y/view"
+          href="https://drive.google.com/file/d/1XPB8OyPm4KYKzUBlTOTPtaEJ_KbrJj5I/view?usp=sharing"
           className="text-lg font-semibold text-white underline hover:text-[#00ffff] transition-all duration-300 text-center"
           download
           target="_blank"

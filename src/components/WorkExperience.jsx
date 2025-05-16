@@ -103,18 +103,22 @@ const experiences = [
       "Reduced API time by 70% by implementing Redis cache with parallel processing for 10k+ requests, leading to 2x throughput",
       "Improved data fetching speed by developing FastAPI-MongoDB microservices, resulting in 50k+ records processed in 30 seconds",
       "Decreased database query time to 80% by architecting pixel tracking with Pandas, ElasticSearch, and Redis for 20k+ records",
+      "Designed and refined prompt engineering solutions for complex problem statements, significantly improving solution accuracy",
+      "Managed data processing workflows on AWS EC2 and S3, implementing auto-scaling policies reducing operational costs by 25%",
+      "Wrote Python scripts to fetch data into Excel from servers, reducing analytics team’s manual workload by 30%"
     ],
     techStack:
       "ReactJS, Python, FastAPI, MongoDB, Microservices, Kafka, Redis, ElasticSearch, Pandas",
   },
   {
-    role: "Frontend Developer",
-    company: "Freelancer",
+    role: " Frontend Developer & Founder",
+    company: "SNS Web",
     duration: "May 2023 – Feb 2024",
     description: [
-      "Increased lead generation by 40% by building ReactJS SPA with server-side rendering, resulting in enhanced site performance",
+      "Designed and delivered production-grade websites for small and medium businesses using React.js and frontend technologies",
       "Enhanced user engagement by developing seamless navigation with React-Router-Dom and dynamic routing implementation",
-      "Reduced codebase by 30% by developing atomic design system with Tailwind CSS, achieving 90% user satisfaction rate",
+      "Built components with Tailwind CSS, accelerating development velocity and ensuring UI consistency across multiple projects",
+      "Implemented and optimized frontend components, reducing initial page load time by 2 seconds and improving Lighthouse scores"
     ],
     techStack: "JavaScript, ReactJS, React-Router-Dom, Tailwind CSS, BootStrap",
   },
@@ -123,11 +127,12 @@ const experiences = [
     company: "Desi QnA",
     duration: "Feb 2023 – Mar 2023",
     description: [
-      "Decreased unauthorized access by 70% by implementing JWT-based MFA with reCAPTCHA, enhancing platform security",
-      "Improved response time by 50% by optimizing data retrieval with O(1) HashMap lookup, supporting peak load operations",
-      "Achieved 90% bot detection accuracy by developing fraud detection algorithms while reducing CPU usage by 30%",
+      "Developed responsive web interfaces using HTML5, CSS3, and JavaScript that served 2,000+ monthly active users",
+      "Integrated Google reCAPTCHA and email domain filters to block fake signups, reducing spam registrations by 85%",
+      "Designed backend logic in PHP and MySQL with domain validation using a HashMap, improving registration speed and security",
+      "Created data sanitation scripts that improved platform reliability and reduced manual moderation requirements"
     ],
-    techStack: "Java, JavaScript, Data Structures and Algorithms",
+    techStack: "HTML5, CSS, JavaScript, MySQL, Data Structures and Algorithms",
   },
 ];
 
